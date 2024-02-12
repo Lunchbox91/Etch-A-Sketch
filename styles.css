@@ -1,9 +1,9 @@
 body {
   display: flex;
+  flex-direction: column;
+  text-align: center;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
 }
 
 #container {
@@ -17,9 +17,7 @@ body {
 }
 
 .square {
-  flex-grow: 1;
   display: inline-block;
   width: 60px;
   height: 60px;
-  outline: 1px solid black;
 }
