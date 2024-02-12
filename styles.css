@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  max-width: 960px;
+  max-height: 960px;
+}
+
+.square {
+  flex-grow: 1;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  outline: 1px solid black;
+}
